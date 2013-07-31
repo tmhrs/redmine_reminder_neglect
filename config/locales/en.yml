@@ -1,0 +1,3 @@
+en:
+  mail_subject_reminder_no_assigned: "%{count} issue(s) has not been updated for more than %{dayss} days"
+  mail_body_reminder_no_assigned: "%{count} issue(s) that are assigned to you has not been updated for more than %{dayss} days:"

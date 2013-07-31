@@ -1,0 +1,3 @@
+ja:
+  mail_subject_reminder_neglect: "%{count}件のチケットが%{days}日以上更新されていません"
+  mail_body_reminder_neglect: "%{count}件の担当チケットが%{days}日以上更新されていません:"
