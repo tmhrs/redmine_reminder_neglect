@@ -1,12 +1,9 @@
 = 概要
-以下に該当するチケットに対しリマインドメールをプロジェクトメンバへ送信する
-・担当者未割当
-　AND
-・作成されてから指定時間経過している
+最終更新後、指定日数経過したチケットへのリマインダ
 
 = 使用方法
-　rake redmine:send_reminders_no_assigned (mins=60 project=demo tracker=1) RAILS_ENV="production"
-　※デフォルト値　mins:7, project:all, tracker:all
+　rake redmine:send_reminders_neglect (days=7 users="1,23, 56", project=demo tracker=1) RAILS_ENV="production"
+　※デフォルト値　days:7, users:all, project:all, tracker:all
 
 = 検証環境
 Redmine 2.3.1.stable
