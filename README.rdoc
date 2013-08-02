@@ -4,6 +4,7 @@
 = 使用方法
 　rake redmine:send_reminders_neglect (days=7 users="1,23, 56", project=demo tracker=1) RAILS_ENV="production"
 　※デフォルト値　days:7, users:all, project:all, tracker:all
+　※該当チケットの担当者へメール
 
 = 検証環境
 Redmine 2.3.1.stable
