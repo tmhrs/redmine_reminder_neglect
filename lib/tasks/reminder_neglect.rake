@@ -20,7 +20,7 @@ namespace :redmine do
     options[:users] = (ENV['users'] || '').split(',').each(&:strip!)
 
     Mailer.with_synched_deliveries do
-      RemindMailer.reminders_neglect(options)
+      RemindMailerNeglect.reminders_neglect(options)
     end
   end
 end
